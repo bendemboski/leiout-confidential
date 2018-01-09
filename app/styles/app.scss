@@ -1,4 +1,16 @@
+$navbar-default-color: white;
+$navbar-default-bg: black;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: darken($navbar-default-link-color, 6.5%);
+$navbar-default-link-active-color: darken($navbar-default-link-color, 6.5%);
+
 @import "bootstrap";
+
+body {
+  background-image: url('../../images/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .container {
   max-width: 800px;
