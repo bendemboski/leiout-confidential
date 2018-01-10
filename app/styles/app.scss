@@ -7,9 +7,13 @@ $navbar-default-link-active-color: darken($navbar-default-link-color, 6.5%);
 @import "bootstrap";
 
 body {
-  background-image: url('../../images/bg.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #cc00ff;
+
+  @media (min-width: $screen-sm-min) {
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 .container {
@@ -22,6 +26,10 @@ body {
 
   &:first-child {
     padding-top: 120px;
+  }
+
+  &:last-child {
+    padding-bottom: 20px;
   }
 }
 
